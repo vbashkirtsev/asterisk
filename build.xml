@@ -1,6 +1,6 @@
 <project name="Asterisk PBX" default="build" basedir=".">
 
- <property name="ARTIFACT_NAME" value="ASTERISK"/>
+ <property name="ARTIFACT_NAME" value="Asterisk"/>
  <property name="HOSTNAME" value="asterisk"/>
  <property name="ID" value="ASTERISK"/>
 
