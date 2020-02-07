@@ -1,0 +1,15 @@
+[submodule "build-system"]
+	path = build-system
+	url = https://git.iszf.irk.ru/certo/build-system.git
+[submodule "packages/jansson"]
+	path = packages/jansson
+	url = https://git.iszf.irk.ru/certo/jansson.git
+[submodule "packages/sqlite"]
+	path = packages/sqlite
+	url = https://git.iszf.irk.ru/certo/sqlite.git
+[submodule "packages/libedit"]
+	path = packages/libedit
+	url = https://git.iszf.irk.ru/certo/libedit.git
+[submodule "packages/asterisk"]
+	path = packages/asterisk
+	url = https://git.iszf.irk.ru/certo/asterisk.git
