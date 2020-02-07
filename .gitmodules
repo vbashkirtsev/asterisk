@@ -13,3 +13,12 @@
 [submodule "packages/asterisk"]
 	path = packages/asterisk
 	url = https://git.iszf.irk.ru/certo/asterisk.git
+[submodule "packages/linux"]
+	path = packages/linux
+	url = https://git.iszf.irk.ru/certo/linux.git
+[submodule "packages/dahdi"]
+	path = packages/dahdi
+	url = https://git.iszf.irk.ru/certo/dahdi.git
+[submodule "packages/libpri"]
+	path = packages/libpri
+	url = https://git.iszf.irk.ru/certo/libpri.git

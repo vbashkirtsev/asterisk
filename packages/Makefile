@@ -1,7 +1,8 @@
 all: packages
 
-BASE_PACKAGES = libedit jansson sqlite asterisk
+BASE_PACKAGES = dahdi libpri libedit jansson sqlite asterisk
 
-asterisk: libedit jansson sqlite
+libpri: dahdi
+asterisk: libpri libedit jansson sqlite
 
 include Makefile.common
