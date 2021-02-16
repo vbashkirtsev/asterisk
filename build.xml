@@ -13,6 +13,7 @@
  <target name="build">
   <sequential>
    <antcall target="unpack-system-image"/>
+   <antcall target="build-boot-kernel"/>
    <antcall target="build-image"/>
    <antcall target="check-strip-and-trim"/>
    <antcall target="post-mender-artifact"/>
