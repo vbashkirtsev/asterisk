@@ -25,3 +25,6 @@
 [submodule "packages/libsrtp"]
 	path = packages/libsrtp
 	url = https://git.iszf.irk.ru/certo/libsrtp.git
+[submodule "kernelconfig/initramfs"]
+	path = kernelconfig/initramfs
+	url = https://git.iszf.irk.ru/certo/initramfs-mender.git
