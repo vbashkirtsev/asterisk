@@ -1,6 +1,6 @@
 all: packages
 
-BASE_PACKAGES = tcpdump dahdi libpri libedit jansson sqlite libsrtp asterisk
+BASE_PACKAGES = tcpdump dahdi libpri libedit jansson sqlite libsrtp asterisk firewall
 
 tcpdump: libpcap
 libpri: dahdi
