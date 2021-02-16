@@ -22,3 +22,6 @@
 [submodule "packages/libpri"]
 	path = packages/libpri
 	url = https://git.iszf.irk.ru/certo/libpri.git
+[submodule "packages/libsrtp"]
+	path = packages/libsrtp
+	url = https://git.iszf.irk.ru/certo/libsrtp.git
