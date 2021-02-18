@@ -81,9 +81,10 @@ xeon-e3-1271:
 lenovo-t460s:
 	$(MAKE) packages BOOT_PACKAGES="linux.lenovo-t460s"
 
-BASE_PACKAGES = dahdi libpri libedit jansson sqlite libsrtp asterisk firewall
+BASE_PACKAGES = unbound libevent nettle dahdi libpri libedit jansson sqlite libsrtp opus asterisk firewall
 
+unbound: libevent nettle
 libpri: dahdi
-asterisk: libpri libedit jansson sqlite libsrtp
+asterisk: libpri libedit jansson sqlite libsrtp opus
 
 include Makefile.common

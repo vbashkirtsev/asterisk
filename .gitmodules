@@ -28,3 +28,15 @@
 [submodule "kernelconfig/initramfs"]
 	path = kernelconfig/initramfs
 	url = https://git.iszf.irk.ru/certo/initramfs-mender.git
+[submodule "packages/libevent"]
+	path = packages/libevent
+	url = https://git.iszf.irk.ru/certo/libevent.git
+[submodule "packages/nettle"]
+	path = packages/nettle
+	url = https://git.iszf.irk.ru/certo/nettle.git
+[submodule "packages/opus"]
+	path = packages/opus
+	url = https://git.iszf.irk.ru/certo/opus.git
+[submodule "packages/unbound"]
+	path = packages/unbound
+	url = https://git.iszf.irk.ru/certo/unbound.git
